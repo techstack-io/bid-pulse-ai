@@ -2,14 +2,13 @@ import Image from "next/image";
 
 export function ClarkLogo() {
   return (
-    <div className="flex items-center">
-      <Image
-        src="/images/clark-logo.svg"
-        alt="Clark Wire & Cable"
-        width={180}
-        height={50}
-        priority
-      />
-    </div>
+    <Image
+      src="/images/clark-logo-header.png"
+      alt="Clark Wire & Cable"
+      width={240}
+      height={62}
+      className="h-auto w-[200px]"
+      priority
+    />
   );
 }
