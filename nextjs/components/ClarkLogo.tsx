@@ -4,7 +4,7 @@ export function ClarkLogo() {
   return (
     <div className="flex items-center">
       <Image
-        src="/images/clark-logo.png"
+        src="/images/clark-logo.svg"
         alt="Clark Wire & Cable"
         width={180}
         height={50}
