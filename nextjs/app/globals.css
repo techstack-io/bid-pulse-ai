@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-clark-canvas text-clark-body antialiased;
+    font-variant-numeric: tabular-nums;
+  }
+  a {
+    @apply text-clark no-underline;
+  }
+  a:hover {
+    @apply text-clark-dark underline;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-clark ring-offset-2;
+  }
+  ::selection {
+    background: rgb(0 67 200 / 0.16);
+  }
+}
